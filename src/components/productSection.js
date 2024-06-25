@@ -8,6 +8,7 @@ const ProductSection = ({ heading, products, cardBgColor }) => {
       <div className="products">
         {products.map((product, index) => (
           <ProductCard
+          
             key={index}
             name={product.name}
             image={product.image}

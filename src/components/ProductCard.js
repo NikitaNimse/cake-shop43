@@ -1,9 +1,9 @@
 import React from 'react';
-import "./ProductCard.css"
+import "./ProductCard.css";
 
 const ProductCard = ({ name, image, description, bgColor,quantity,price }) => {
   return (
-    <div className="product-card" style={{ backgroundColor: bgColor }}>
+    < div className="product-card" style={{ backgroundColor: bgColor }}>
       <img src={image} alt={name}  className='image'/>
       <h3>{name}</h3>
       <p>{description}</p>
