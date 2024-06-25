@@ -1,0 +1,22 @@
+.image{
+    width: 200PX;
+    height: 200PX;
+    border-radius: 5%;
+  
+}
+.product-card{
+    margin:150px;
+    padding:15px;
+    height: 350px;
+    width: 250px;
+}
+.price{
+    background-color: black;
+    color:#FFFF;
+    padding:2px 5px;
+    margin:7px;
+    margin-left: 15px;
+    font-size:15px;
+    border-radius:10px;
+    width:110px;
+    }
