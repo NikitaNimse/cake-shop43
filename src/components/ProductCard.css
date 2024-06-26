@@ -5,10 +5,17 @@
   
 }
 .product-card{
-    margin:150px;
-    padding:15px;
-    height: 350px;
-    width: 250px;
+
+    background-color:#ffff;
+    border: 1px solid black;
+    padding:  5px 10px;
+    margin:80px 40px;
+    width:250px;
+    
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: inline-block;
+    text-decoration:none;
 }
 .product-card:hover{
  
