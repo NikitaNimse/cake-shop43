@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header 
-        shopName={settings.shopName} 
+        Name={settings.Name} 
         bgColor={settings.headerBgColor} 
         color={settings.headerColor} 
       />
@@ -28,7 +28,7 @@ function App() {
           cardBgColor={settings.cardBgColor} 
         />
       </main>
-      <Footer footerText={settings.footerText} 
+      <Footer footerdata={settings.footerdata} 
         bgColor={settings.footerBgcolor}
         />
      

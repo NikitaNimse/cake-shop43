@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = ({ shopName, bgColor, color }) => {
+const Header = ({ Name, bgColor, color }) => {
   return (
     <header style={{ backgroundColor: bgColor, color }}>
-      <h1>{shopName}</h1>
+      <h1>{Name}</h1>
     </header>
   );
 };

@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Footer = ({ footerText,bgColor }) => {
+const Footer = ({ footerdata,bgColor }) => {
   return (
     <footer style={{ backgroundColor: bgColor}}>
-      <p>{footerText}</p>
+      <p>{footerdata}</p>
     </footer>
   );
 };
