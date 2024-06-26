@@ -3,8 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductSection from '../components/productSection';
 import config from '../config.json';
-import './App.css';
-function App() {
+import './Home.css';
+function Home() {
   const [settings, setSettings] = useState(null);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
