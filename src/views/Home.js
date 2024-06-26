@@ -23,7 +23,6 @@ function Home() {
       />
       <main>
         <ProductSection className=""
-          heading={settings.productsHeading} 
           products={settings.products} 
           cardBgColor={settings.cardBgColor} 
         />

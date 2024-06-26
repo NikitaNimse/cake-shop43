@@ -14,16 +14,15 @@ body {
   }
   
   .product-card {
-   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  
-  }
-  .product-card:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  }
+ 
+     padding: 10px;
+     margin: 10px;
+     text-align: center;
+   
+   }
+ 
+   
+
   
   .products {
     display: flex;
